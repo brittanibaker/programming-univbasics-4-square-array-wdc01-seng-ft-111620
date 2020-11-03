@@ -1,7 +1,7 @@
 require 'pry' 
 def square_array(numbers)
   binding.pry
-  squared = [1,4,9]
+  squared = []
   count = 0
   while count < numbers.length do
     numbers[count]**2
