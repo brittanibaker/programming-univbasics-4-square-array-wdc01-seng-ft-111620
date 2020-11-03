@@ -1,6 +1,6 @@
 require 'pry' 
 def square_array(numbers)
-  #binding.pry
+  binding.pry
   squared = []
   count = 0
   while count < numbers.length do
